@@ -1,0 +1,23 @@
+.table{
+  width: 100%;
+  & .row{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 20px;
+    & h4,p{
+      min-width: 100px;
+      flex: 1;
+      margin: 0 10px;
+      &.etf_name{
+        flex: 4;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+      }
+      &:nth-last-child(1){
+        text-align: right;
+      }
+    }
+  }
+}
