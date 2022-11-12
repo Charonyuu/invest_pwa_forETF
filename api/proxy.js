@@ -15,6 +15,6 @@ app.get('/investETF_worths', async (req, res) => {
   }
 })
 
-app.listen(8000, () => {
-  console.log('server listening on 8000...')
+app.listen(8010, () => {
+  console.log('server listening on 5000...')
 })
