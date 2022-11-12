@@ -18,7 +18,7 @@ export default function useFetchData(){
             setLoading(false)
         }).catch((err)=>{
             console.log('error:' + err);
-            setError(err)
+            setError(JSON.stringify(err))
         })
     })
     useEffect(()=>{
