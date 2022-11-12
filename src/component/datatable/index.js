@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.module.scss';
 
-export default function DataCard({filter,toggle,list_data}) {
+export default function DataTable({filter,toggle,list_data}) {
     const company_etf_list_data = list_data 
   return (
     <div className={styles.table}>

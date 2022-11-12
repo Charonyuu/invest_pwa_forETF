@@ -43,7 +43,7 @@ function App() {
         data.map((_list_data,index) => 
         <>
         {_list_data.msgArray &&
-          <section key={[index]} id={STOCK_COMPANY_ARRAY[index]} >
+          <section key={STOCK_COMPANY_ARRAY[index]} id={STOCK_COMPANY_ARRAY[index]} >
             {(!search && option === 'all') &&
               <div className={styles.section_header} onClick={()=>toogleMenu(index)}>
                   <h1 >{STOCK_COMPANY_ARRAY[index]}</h1>

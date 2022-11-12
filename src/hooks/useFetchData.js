@@ -16,7 +16,6 @@ export default function useFetchData(){
         .then((response)=>{
             setData(response.data);
             setLoading(false)
-            console.log(response.data);
         }).catch((err)=>{
             console.log('error:' + err);
         })

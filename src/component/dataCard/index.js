@@ -6,7 +6,7 @@ import {ReactComponent as HeartIcon} from '../../asset/heart_icon.svg'
 import classnames from "classnames";
 
 
-export default function DataTable({filter,toggle,list_data,option}) {
+export default function DataCard({filter,toggle,list_data,option}) {
     const company_etf_list_data = list_data
     const [checked,setChecked] = useState([])
     useEffect(()=>{
@@ -17,9 +17,7 @@ export default function DataTable({filter,toggle,list_data,option}) {
     const checked_handler = (ETF_number) => { 
         const localStorage_data = JSON.parse(localStorage.getItem('ETF_Favorite_Data')) || [];
         const temp = [...localStorage_data]
-        console.log(temp);
         const if_in_storage = temp.findIndex(nums => nums === ETF_number)
-        console.log(if_in_storage);
         if(if_in_storage === -1){
             temp.push(ETF_number)
         }else{
