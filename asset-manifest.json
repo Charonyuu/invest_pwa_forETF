@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/invest_pwa_forETF/static/css/main.b33bf108.css",
+    "main.js": "/invest_pwa_forETF/static/js/main.eedfaa48.js",
+    "static/js/787.3e13521b.chunk.js": "/invest_pwa_forETF/static/js/787.3e13521b.chunk.js",
+    "service-worker.js": "/invest_pwa_forETF/service-worker.js",
+    "static/media/loading.svg": "/invest_pwa_forETF/static/media/loading.893a5af9cb6bf2454b4168b98b1d8847.svg",
+    "index.html": "/invest_pwa_forETF/index.html",
+    "static/media/favorite_icon.svg": "/invest_pwa_forETF/static/media/favorite_icon.d1126d78615b3f7421d981059a09ca7e.svg",
+    "static/media/up_icon.svg": "/invest_pwa_forETF/static/media/up_icon.f869b749804f4c0b3973798512f69e3e.svg",
+    "static/media/down_icon.svg": "/invest_pwa_forETF/static/media/down_icon.da6b3bb2b5415401394f3aa6d522f631.svg",
+    "static/media/heart_icon.svg": "/invest_pwa_forETF/static/media/heart_icon.29b3a869c4b35035919063a7a3c30459.svg",
+    "static/media/refresh_icon.svg": "/invest_pwa_forETF/static/media/refresh_icon.17802d7b7bdf04ed4ce14e9dbd25e73d.svg",
+    "static/media/cancel_icon.svg": "/invest_pwa_forETF/static/media/cancel_icon.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "main.b33bf108.css.map": "/invest_pwa_forETF/static/css/main.b33bf108.css.map",
+    "main.eedfaa48.js.map": "/invest_pwa_forETF/static/js/main.eedfaa48.js.map",
+    "787.3e13521b.chunk.js.map": "/invest_pwa_forETF/static/js/787.3e13521b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b33bf108.css",
+    "static/js/main.eedfaa48.js"
+  ]
+}
