@@ -5,7 +5,7 @@ export default function useFetchData(){
 
     const [data,setData] = useState();
     const [loading,setLoading] = useState(true);
-
+    const [error,setError] =useState('')
     const Isopen_hour = () =>{
         const day = new Date().getDay();
         const time = new Date().getHours(); 
@@ -18,6 +18,7 @@ export default function useFetchData(){
             setLoading(false)
         }).catch((err)=>{
             console.log('error:' + err);
+            setError(err)
         })
     })
     useEffect(()=>{
@@ -29,5 +30,5 @@ export default function useFetchData(){
         },15000)
         return () => clearInterval(get_data_interval);
     },[])
-    return {data , loading , FetchData}
+    return {data , loading , error , FetchData}
 }

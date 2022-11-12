@@ -12,7 +12,7 @@ import {ReactComponent as Loading} from './asset/loading.svg'
 
 function App() {
   const { width } = useWindowSize();
-  const {data , loading} = useFetchData()
+  const {data , loading , error} = useFetchData()
   const [option,setOption] = useState('all')
   const [search,setSearch] = useState('')
   const [toggleList ,setToggleList] = useState([
@@ -34,10 +34,12 @@ function App() {
         toggleList={toggleList}
         setToggleList={setToggleList}  
       />
+      
       {loading ? 
         <div className={styles.loading}>
           <Loading />
           <p>抓取資料中...</p>
+          {error && error}
         </div>
       :
         data.map((_list_data,index) => 
