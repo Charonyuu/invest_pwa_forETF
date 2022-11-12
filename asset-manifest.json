@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/invest_pwa_forETF/static/css/main.b33bf108.css",
+    "main.css": "/invest_pwa_forETF/static/css/main.e366ca89.css",
     "main.js": "/invest_pwa_forETF/static/js/main.03acbe87.js",
     "static/js/787.3e13521b.chunk.js": "/invest_pwa_forETF/static/js/787.3e13521b.chunk.js",
     "service-worker.js": "/invest_pwa_forETF/service-worker.js",
@@ -12,12 +12,12 @@
     "static/media/heart_icon.svg": "/invest_pwa_forETF/static/media/heart_icon.29b3a869c4b35035919063a7a3c30459.svg",
     "static/media/refresh_icon.svg": "/invest_pwa_forETF/static/media/refresh_icon.17802d7b7bdf04ed4ce14e9dbd25e73d.svg",
     "static/media/cancel_icon.svg": "/invest_pwa_forETF/static/media/cancel_icon.2001e956d267bc9b1a2349ee0a8ee521.svg",
-    "main.b33bf108.css.map": "/invest_pwa_forETF/static/css/main.b33bf108.css.map",
+    "main.e366ca89.css.map": "/invest_pwa_forETF/static/css/main.e366ca89.css.map",
     "main.03acbe87.js.map": "/invest_pwa_forETF/static/js/main.03acbe87.js.map",
     "787.3e13521b.chunk.js.map": "/invest_pwa_forETF/static/js/787.3e13521b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b33bf108.css",
+    "static/css/main.e366ca89.css",
     "static/js/main.03acbe87.js"
   ]
 }
