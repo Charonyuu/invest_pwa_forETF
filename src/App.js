@@ -34,7 +34,6 @@ function App() {
         toggleList={toggleList}
         setToggleList={setToggleList}  
       />
-      
       {loading ? 
         <div className={styles.loading}>
           <Loading />
