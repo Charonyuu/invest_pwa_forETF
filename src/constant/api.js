@@ -1,4 +1,4 @@
-export const INVEST_ETF_WORTHS_BASE_URL = 'http://localhost:8010/investETF_worths';
+export const INVEST_ETF_WORTHS_BASE_URL = 'https://Charonyuu.github.io/invest_pwa_forETF:8010/investETF_worths';
 
 export const STOCK_COMPANY_ARRAY=[
     '街口','台新','第一金','新光','中信','統一','FT','凱基',
